@@ -1,0 +1,114 @@
+body {
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat ;
+    font-family: Roboto, sans-serif;
+   letter-spacing: 1px;
+   margin: 0;
+   padding: 0;
+   color: #333;
+   line-height: 19px;
+   min-height: 100%;
+}
+h1 {
+    font-size: 20px;
+}
+h2 {
+    font-size: 14px;
+    margin-left: 20px;
+}
+img {
+    width: 40px;
+    margin-left: 20px;
+}
+p {
+
+    margin: 0;
+    align-self: center;
+}
+
+.container {
+    background-color: white;
+    width: 350px;
+    text-align: center;
+    margin: 100px auto;
+    border-radius: 5px;
+    box-shadow: 0 22px 50px rgba(14,21,47, .2), 0 8px 20px rgba(14,21,47, .2);
+    overflow: hidden;
+}
+.rows {
+    display: flex;
+    border-bottom: 1px solid #dedede;
+   padding: 5px 0px 5px 0px;
+   cursor: pointer;
+   position: relative;
+   align-items:center;
+   transition: background 0.15s ease-in-out;
+   margin: 0px;
+   color: #aaa;
+}
+.rows:last-child {
+    border-bottom: 0;
+}
+.options {
+    border-top: 1px solid #dedede;
+}
+.three {
+    color: #000;
+    transition: background 0.15s ease-in-out;
+}
+.first-row {
+   padding: 20px 20px 10px;
+}
+   
+.rows:hover {
+    background: #f1f1f1;
+}
+
+.check { 
+    margin-left: 120px;
+    width: 25px;
+}
+.dots_item {
+width: 6px;
+height: 6px;
+ background: #dedede;
+ border-radius: 50%;
+ display: inline-block;
+ vertical-align: top;
+ margin: 0 2px;
+}
+.dots {
+    margin-bottom: 10px;
+}
+.active {
+    background: rgb(169,169,169);
+    }
+.button {
+    background: #5A8BDD;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+    transition: background 0.15s ease-in-out;
+    position: relative;
+}
+.button:hover {
+    background: #558EF3;
+}
+.button:active {
+    top:1px;
+}
+.text {
+    font-size: 12px;
+    line-height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.arrow {
+    height: 14px;
+    display: inline-block;
+    vertical-align: middle;
+   margin-left:  0px ;
+   padding-left: 0;
+}
